@@ -1,17 +1,17 @@
 ---
-name: thinkdifference-light-learn
+name: td-light-learn
 description: >
   轻量知识焊接器。将不值得 learn-deep 但值得留住的知识点，
   用最少墨水焊接到已有知识网络上。输出追加到宿主概念的 light-learn 文件。
   当用户说"补一下 X"、"记一下 X"、"X 补丁"、"顺便记一下 X"、
   "X 和 Y 有什么不同"（轻量对比意图）、"light-learn X"时触发。
-  不要用于深度理解（用 thinkdifference-learn-deep）、
+  不要用于深度理解（用 td-learn-deep）、
   不要用于"X 是啥"这类普通问答（直接回答即可）。
   用户是编排者——用户说"补一下"就补，不做门槛检验。
   如果写的过程中发现知识点太大、写不下去，提示用户升级为 learn-deep。
 user_invocable: true
 metadata:
-  author: thinkdifference
+  author: td
   version: 1.1.0
 ---
 

@@ -1,6 +1,6 @@
 # 认知走查审查协议
 
-> 本协议由独立 Agent 执行，用于审查 `thinkdifference-learn-deep` Skill 的生成产出。
+> 本协议由独立 Agent 执行，用于审查 `td-learn-deep` Skill 的生成产出。
 > 审查 Agent 与生成 Agent 分离，避免"作者盲区"（生成惯性）。
 
 ## 审查 Agent 角色设定

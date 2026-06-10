@@ -1,16 +1,16 @@
 ---
-name: thinkdifference-extract-atoms
+name: td-extract-atoms
 description: >
   从任意笔记、文章、书籍章节中提取原子知识点，在 `1.原子笔记/` 下生成 Zettelkasten 风格的笔记文件。
   每个原子笔记包含定义、aliases（别名）和关联图谱（上位/同级/下位/应用）。
   当用户说"提取原子笔记"、"洞察原子知识点"、"extract atoms"、"生成原子笔记"、
   "拆解知识点"、"提取知识图谱"、"原子化"时触发。
   当用户给出任意文章/笔记并说"帮我整理成原子笔记"、"把这篇文章的知识点拆出来"时也应触发。
-  不要用于制卡（用 thinkdifference-make-cards）、知识点深挖（用 thinkdifference-learn-deep）。
+  不要用于制卡（用 td-make-cards）、知识点深挖（用 td-learn-deep）。
   这个 skill 的职责是"从已学透的内容中提取知识图谱节点"，不负责教学或制卡。
 user_invocable: true
 metadata:
-  author: thinkdifference
+  author: td
   version: 1.2.0
 ---
 

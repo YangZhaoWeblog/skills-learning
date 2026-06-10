@@ -7,8 +7,8 @@ description: >
   "这几个概念之间什么关系"、"知识缝合"、"把这些概念串起来"时触发。
   也适用于用户学完几个相关概念后想要整理关系图的场景。
   注意：这个 skill 处理的是"跨概念关系发现与 MOC 生成"，
-  不是"单个概念的深度学习"（那是 thinkdifference-learn-deep），
-  也不是"从文章中提取原子笔记"（那是 thinkdifference-extract-atoms）。
+  不是"单个概念的深度学习"（那是 td-learn-deep），
+  也不是"从文章中提取原子笔记"（那是 td-extract-atoms）。
 user_invocable: true
 metadata:
   author: yangzhao

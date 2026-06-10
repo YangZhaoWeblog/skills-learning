@@ -1,19 +1,19 @@
 ---
-name: thinkdifference-make-cards
+name: td-make-cards
 description: >
   将文章、笔记或知识点转化为高质量的间隔重复卡片（Q/A 对）。
   不是简单的"划重点"，而是从多个认知角度（what/why/how/果/reverse/场景）
   对知识进行切面覆盖，确保理解而非记忆。
-  能处理 thinkdifference-learn-deep 的四幕结构输出，也能处理任意文章、笔记或知识总结。
+  能处理 td-learn-deep 的四幕结构输出，也能处理任意文章、笔记或知识总结。
   当用户说"帮我制卡"、"生成 Anki 卡片"、"把这篇文章变成卡片"、"制作记忆卡"、
   "提取复习卡片"、"做成闪卡"、"make cards"时触发。
   当用户分享了一篇文章/笔记并表达想要记住其中内容的意图时，也应触发。
-  不要用于学科全景图（用 ljg-xray-discipline）、知识点深挖（用 thinkdifference-learn-deep）、
+  不要用于学科全景图（用 ljg-xray-discipline）、知识点深挖（用 td-learn-deep）、
   公式解码（用 ljg-formula-decoder）。
   这个 skill 的职责是"从已理解的内容中提取可复习的卡片"，不负责解释或教学。
 user_invocable: true
 metadata:
-  author: thinkdifference
+  author: td
   version: 2.1.0
 ---
 

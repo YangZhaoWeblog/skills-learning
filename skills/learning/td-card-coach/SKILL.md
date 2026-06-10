@@ -1,14 +1,14 @@
 ---
-name: thinkdifference-card-coach
+name: td-card-coach
 description: >
   制卡教练。用于优化用户已经写出的卡片、打磨提问与答案、识别卡片是否太笼统/太长/不够扎。
   默认不代写整套卡片，而是优先做反问、压缩、轻质检，保护用户自己的直觉锚点与私人语言。
   当用户说"帮我优化这张卡"、"这张卡问得不好"、"答案太长了"、"帮我打磨提问"、
   "看看我写的卡片哪里不对"、"refine this card"、"improve this flashcard"时触发。
-  若用户要求把整篇文章直接变成卡片，使用 thinkdifference-make-cards；若用户还没学懂知识点，使用 thinkdifference-learn-deep。
+  若用户要求把整篇文章直接变成卡片，使用 td-make-cards；若用户还没学懂知识点，使用 td-learn-deep。
 user_invocable: true
 metadata:
-  author: thinkdifference
+  author: td
   version: 1.0.0
 ---
 
@@ -42,9 +42,9 @@ metadata:
 ### 不使用场景
 
 1. 用户要把一篇文章/笔记直接批量变成卡片
-   - 转到 `thinkdifference-make-cards`
+   - 转到 `td-make-cards`
 2. 用户其实还没理解知识点本身
-   - 转到 `thinkdifference-learn-deep`
+   - 转到 `td-learn-deep`
 3. 用户只是要你直接给出最终答案，不关心卡片质量
    - 普通回答即可，不必进入本 skill 的完整流程
 
@@ -64,7 +64,7 @@ metadata:
 你的动作：
 - 继续追问
 - 帮他把知识压缩成一个点
-- 必要时提醒：这个问题更适合 `thinkdifference-learn-deep`
+- 必要时提醒：这个问题更适合 `td-learn-deep`
 
 ### B. 用户在找说法
 特征：

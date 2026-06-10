@@ -1,5 +1,5 @@
 {
-  "skill_name": "thinkdifference-extract-atoms",
+  "skill_name": "td-extract-atoms",
   "evals": [
     {
       "id": 1,

@@ -8,7 +8,7 @@ description: >
   "把摘录整理成树形"时触发。
 user_invocable: true
 metadata:
-  author: thinkdifference
+  author: td
   version: 3.0.0
   breaking_change: "v3 起核心逻辑迁入 scripts/canvas_refine.py，SKILL.md 不再包含可执行 Python。"
   scripts_dir: "./scripts"

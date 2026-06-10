@@ -1,6 +1,6 @@
 # Card Coach 审查协议
 
-> 用于审查 `thinkdifference-card-coach` 的输出是否越权、是否改写过度、是否误伤用户自己的记忆锚点。
+> 用于审查 `td-card-coach` 的输出是否越权、是否改写过度、是否误伤用户自己的记忆锚点。
 
 ## 审查目标
 

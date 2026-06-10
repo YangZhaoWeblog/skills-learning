@@ -7,7 +7,7 @@ description: >
   也适用于用户给出 deeplearn 文件并明确要写入 canvas 的场景。
 user_invocable: true
 metadata:
-  author: thinkdifference
+  author: td
   version: 2.2.0
 ---
 

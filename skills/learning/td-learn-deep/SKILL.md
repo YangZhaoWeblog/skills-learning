@@ -1,5 +1,5 @@
 ---
-name: thinkdifference-learn-deep
+name: td-learn-deep
 description: >
   知识点深挖引导器。通过四幕式引导构建（问题感知 -> 引导式构建 -> 全景走查 -> 空白重建），
   帮助用户"学透"一个具体知识点（如 RSA、Paxos、PoW、数字证书、快速排序、反向传播等）。
@@ -13,7 +13,7 @@ description: >
   论文解读（用 ljg-xray-paper）、文章解读（用 ljg-xray-article）或书籍解读（用 ljg-xray-book）。
 user_invocable: true
 metadata:
-  author: thinkdifference
+  author: td
   version: 3.1.0
 ---
 
