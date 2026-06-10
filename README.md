@@ -16,13 +16,13 @@ This repository contains learning-oriented skills and supporting material.
 Use project scope for repo-local installs:
 
 ```bash
-npx skills add /Users/yangzhao/Code/skills-learning --agent claude-code --agent codex -y
+npx skills add /Users/yangzhao/Code/skills-learning -y
 ```
 
 Use global scope when you want the learning assets available across all projects:
 
 ```bash
-npx skills add /Users/yangzhao/Code/skills-learning --agent claude-code --agent codex -g -y
+npx skills add /Users/yangzhao/Code/skills-learning -g -y
 ```
 
 Project scope is the default. `-g` switches to user-level installation.
