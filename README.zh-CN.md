@@ -1,0 +1,41 @@
+# skills-learning
+
+中文 | [English](README.md)
+
+这个仓库只放学习型 skill 和配套材料。
+
+## 规则
+
+- 学习内容、笔记、教学产物都放这里。
+- 可以放可执行的学习型 skill，但不要把这个仓库暴露成默认的 agent skill 目录。
+- 如果某个学习主题后来变成了真正的 agent 工作流，把可执行部分迁到 `skills-develop`。
+- 可复用的通用 skill 放到 `skills-common`。
+
+## 安装
+
+项目级安装，适合只在当前仓库生效：
+
+```bash
+npx skills add /Users/yangzhao/Code/skills-learning --agent claude-code --agent codex -y
+```
+
+全局安装，适合所有项目都可用：
+
+```bash
+npx skills add /Users/yangzhao/Code/skills-learning --agent claude-code --agent codex -g -y
+```
+
+`npx skills add` 默认是项目级，`-g` 会切换成用户级安装。
+
+## 目录
+
+- `skills/learning/`
+- `learning/`
+- `reference/`
+- `lessons/`
+- `records/`
+
+兄弟仓库：
+
+- [skills-develop](../skills-develop/README.zh-CN.md)
+- [skills-common](../skills-common/README.zh-CN.md)
