@@ -29,9 +29,17 @@ English | [中文](README.zh-CN.md)
 
 ## Install
 
+### Project scope
+
+Install into the current repo.
+
 ```bash
 npx skills add /Users/yangzhao/Code/skills-learning -y
 ```
+
+### Global scope
+
+Install into your user space.
 
 ```bash
 npx skills add /Users/yangzhao/Code/skills-learning -g -y
@@ -40,6 +48,24 @@ npx skills add /Users/yangzhao/Code/skills-learning -g -y
 Project scope is the default. `-g` switches to user-level installation.
 
 * * *
+
+## Skills
+
+| Skill | What it does |
+| --- | --- |
+| `canvas-make-cards` | Turn deep-learn notes into canvas cards. |
+| `canvas-refine` | Refine scattered canvas excerpts into a tree. |
+| `coach` | Give mentor-style feedback on learning output. |
+| `td-card-coach` | Tighten question/answer quality for cards. |
+| `td-decompose` | Decide whether a topic needs a DAG or a deep dive. |
+| `td-extract-atoms` | Extract atomic notes from text into Zettelkasten files. |
+| `td-learn-deep` | Deep-dive one concrete concept step by step. |
+| `td-light-learn` | Attach a small knowledge patch to an existing note. |
+| `td-make-cards` | Turn understood material into review cards. |
+| `td-synthesize` | Build a MOC by connecting learned concepts. |
+| `weread-skills` | Search books, shelves, notes, reviews, and stats. |
+| `weread-sync` | Sync WeRead highlights into Obsidian. |
+| `xray-self` | Inspect long-term knowledge and work patterns. |
 
 ## Layout
 

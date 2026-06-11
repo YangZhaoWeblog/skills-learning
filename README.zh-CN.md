@@ -29,9 +29,17 @@
 
 ## 安装
 
+### 项目级
+
+装到当前仓库。
+
 ```bash
 npx skills add /Users/yangzhao/Code/skills-learning -y
 ```
+
+### 全局级
+
+装到你的用户空间。
 
 ```bash
 npx skills add /Users/yangzhao/Code/skills-learning -g -y
@@ -40,6 +48,24 @@ npx skills add /Users/yangzhao/Code/skills-learning -g -y
 `npx skills add` 默认是项目级，`-g` 会切换成用户级安装。
 
 * * *
+
+## Skill
+
+| Skill | 作用 |
+| --- | --- |
+| `canvas-make-cards` | 把深度学习笔记变成 canvas 卡片。 |
+| `canvas-refine` | 把零散摘录整理成树。 |
+| `coach` | 对学习产出做教练式反馈。 |
+| `td-card-coach` | 打磨卡片的提问和答案。 |
+| `td-decompose` | 判断主题要不要拆成知识 DAG。 |
+| `td-extract-atoms` | 从文本里提取原子笔记。 |
+| `td-learn-deep` | 对一个具体概念做深挖。 |
+| `td-light-learn` | 给已有笔记补一个小知识点。 |
+| `td-make-cards` | 把已理解的内容转成复习卡片。 |
+| `td-synthesize` | 把多个概念缝成一张 MOC。 |
+| `weread-skills` | 搜书、书架、笔记、书评和统计。 |
+| `weread-sync` | 把微信读书划线同步到 Obsidian。 |
+| `xray-self` | 透视长期知识和工作模式。 |
 
 ## 目录
 
