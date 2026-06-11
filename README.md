@@ -34,7 +34,7 @@ English | [中文](README.zh-CN.md)
 Install into the current repo.
 
 ```bash
-npx skills add /Users/yangzhao/Code/skills-learning -y
+npx skills@latest add YangZhaoWeblog/skills-learning -y
 ```
 
 ### Global scope
@@ -42,7 +42,7 @@ npx skills add /Users/yangzhao/Code/skills-learning -y
 Install into your user space.
 
 ```bash
-npx skills add /Users/yangzhao/Code/skills-learning -g -y
+npx skills@latest add YangZhaoWeblog/skills-learning -g -y
 ```
 
 Project scope is the default. `-g` switches to user-level installation.
