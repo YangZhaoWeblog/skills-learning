@@ -47,6 +47,28 @@ npx skills@latest add YangZhaoWeblog/skills-learning -g -y
 
 Project scope is the default. `-g` switches to user-level installation.
 
+### Single skill
+
+Install only one skill from this repository.
+
+```bash
+npx skills@latest add YangZhaoWeblog/skills-learning --skill td-learn-deep -y
+```
+
+Install one local skill directory.
+
+```bash
+npx skills@latest add /Users/yangzhao/Code/skills-learning/skills/learning/td-learn-deep -y
+```
+
+Use one skill without installing it.
+
+```bash
+npx skills@latest use YangZhaoWeblog/skills-learning@td-learn-deep
+```
+
+Replace `td-learn-deep` with the target skill name. Add `-g` to install that single skill globally.
+
 * * *
 
 ## Skills

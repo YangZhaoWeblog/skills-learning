@@ -47,6 +47,28 @@ npx skills@latest add YangZhaoWeblog/skills-learning -g -y
 
 `npx skills add` 默认是项目级，`-g` 会切换成用户级安装。
 
+### 单个 skill
+
+只安装仓库里的一个 skill：
+
+```bash
+npx skills@latest add YangZhaoWeblog/skills-learning --skill td-learn-deep -y
+```
+
+只安装一个本地 skill 目录：
+
+```bash
+npx skills@latest add /Users/yangzhao/Code/skills-learning/skills/learning/td-learn-deep -y
+```
+
+不安装，直接生成单个 skill 的使用 prompt：
+
+```bash
+npx skills@latest use YangZhaoWeblog/skills-learning@td-learn-deep
+```
+
+把 `td-learn-deep` 或本地路径换成目标 skill；要全局安装这个单个 skill 时加 `-g`。
+
 * * *
 
 ## Skill
